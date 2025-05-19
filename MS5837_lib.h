@@ -5,7 +5,7 @@
  *      Author: alfa934
  */
 
-//--- White=SDA, Green=SCL,
+//--- White = SDA, Green=SCL
 
 #ifndef INC_MS5837_LIB_H_
 #define INC_MS5837_LIB_H_
