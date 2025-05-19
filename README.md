@@ -87,6 +87,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 ```C
 /* USER CODE BEGIN 2 */
 MS5837_Init(&hi2c1, &press_sensor, 50); //-- (i2c handle, MS5837 handle, delay_ms)
+HAL_TIM_Base_Start_IT(&htim1);
 /* USER CODE END 2 */
 ```
 ```C
